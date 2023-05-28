@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .calculator {
@@ -98,4 +99,9 @@ button {
   min-width: 80px;
   min-height: 65px;
   border-radius: 4px;
+}
+
+.attribute{
+  margin-top: 20px;
+  color: #ddd;
 }
