@@ -157,6 +157,7 @@ const Calculator = () => {
       <div className="container">
         <div className="calculator">
           <Display input={input} output={output}/>
+          <span className="bar"></span>
           <Keyboard data={calcData} handleInput={handleInput} />
         </div>
       </div>
