@@ -166,6 +166,7 @@ const App = () => {
           <Formula formula={output} />
           <Display input={input} />
         </div>
+        <span className="bar"></span>
         <Keyboard data={calcData} handleInput={handleInput} />
       </div>
     </div>
