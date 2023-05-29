@@ -10,9 +10,8 @@ const Keyboard = ({ data, handleInput }: Props) => {
     <div className="keys">
       {data.map((key: any) => (
         <Key
-          key={key.id}
-          id={key.id}
-          value={key.value}
+        key={key.id}
+          keyData={key}
           handleInput={handleInput}
         />
       ))}

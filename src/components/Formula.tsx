@@ -1,11 +1,13 @@
-interface Props{
-    formula: string
+interface Props {
+  formula: string;
 }
 
-const Formula = ({formula}:Props) => {
+const Formula = ({ formula }: Props) => {
   return (
-    <div id="formula">{formula}</div>
-  )
-}
+    <span id="formula" className="formula">
+      {formula}
+    </span>
+  );
+};
 
-export default Formula
+export default Formula;

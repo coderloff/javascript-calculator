@@ -1,13 +1,12 @@
 interface Props {
-  id: string;
-  value: string;
-  handleInput: (id:string) => void;
+  keyData: { id:any, value:any },
+  handleInput: any;
 }
 
-const Key = ({ id, value, handleInput }: Props) => {
+const Key = ({ keyData, handleInput }: Props) => {
   return (
-    <button id={id} value={value} onClick={()=>handleInput(value)}>
-      {value}
+    <button id={keyData.id} value={keyData.value} onClick={()=>handleInput(keyData.value)}>
+      {keyData.value}
     </button>
   );
 };
