@@ -169,6 +169,9 @@ const App = () => {
         <span className="bar"></span>
         <Keyboard data={calcData} handleInput={handleInput} />
       </div>
+      <div className="attribute">
+        <h2>by Coderloff</h2>
+      </div>
     </div>
   );
 };

@@ -19,6 +19,7 @@ body {
 .calculator {
   padding: 10px;
   max-width: 460px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -102,6 +103,6 @@ button {
 }
 
 .attribute{
-  margin-top: 20px;
+  margin-top: 40px;
   color: #ddd;
 }
