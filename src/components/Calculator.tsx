@@ -31,12 +31,11 @@ const Calculator = () => {
   const [output, setOutput] = useState("");
   const [calculatorData, setCalculatorData] = useState("");
 
-  console.log(input, output);
-
   const handleSubmit = () => {
-    console.log({ calculatorData });
-
     const total = eval(calculatorData);
+
+    console.log(input, output, total);
+    
     setInput(total);
     setOutput(`${total} = ${total}`);
     setCalculatorData(`${total}`);
